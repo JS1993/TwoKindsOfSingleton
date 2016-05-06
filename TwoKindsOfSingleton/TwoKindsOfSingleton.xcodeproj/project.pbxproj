@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF490E691CDCC7FC00F10252 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF490E681CDCC7FC00F10252 /* main.m */; };
+		CF490E6C1CDCC7FC00F10252 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF490E6B1CDCC7FC00F10252 /* AppDelegate.m */; };
+		CF490E6F1CDCC7FC00F10252 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF490E6E1CDCC7FC00F10252 /* ViewController.m */; };
+		CF490E721CDCC7FC00F10252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF490E701CDCC7FC00F10252 /* Main.storyboard */; };
+		CF490E741CDCC7FC00F10252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF490E731CDCC7FC00F10252 /* Assets.xcassets */; };
+		CF490E771CDCC7FC00F10252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF490E751CDCC7FC00F10252 /* LaunchScreen.storyboard */; };
+		CF490E821CDCC7FC00F10252 /* TwoKindsOfSingletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF490E811CDCC7FC00F10252 /* TwoKindsOfSingletonTests.m */; };
+		CF490E8D1CDCC7FC00F10252 /* TwoKindsOfSingletonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF490E8C1CDCC7FC00F10252 /* TwoKindsOfSingletonUITests.m */; };
+		CF490E9C1CDCC81200F10252 /* JSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = CF490E9B1CDCC81200F10252 /* JSPerson.m */; };
+		CF490E9F1CDCCA5B00F10252 /* JSDog.m in Sources */ = {isa = PBXBuildFile; fileRef = CF490E9E1CDCCA5B00F10252 /* JSDog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF490E7E1CDCC7FC00F10252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF490E5C1CDCC7FB00F10252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF490E631CDCC7FB00F10252;
+			remoteInfo = TwoKindsOfSingleton;
+		};
+		CF490E891CDCC7FC00F10252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF490E5C1CDCC7FB00F10252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF490E631CDCC7FB00F10252;
+			remoteInfo = TwoKindsOfSingleton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF490E641CDCC7FB00F10252 /* TwoKindsOfSingleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoKindsOfSingleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF490E681CDCC7FC00F10252 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF490E6A1CDCC7FC00F10252 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF490E6B1CDCC7FC00F10252 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF490E6D1CDCC7FC00F10252 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF490E6E1CDCC7FC00F10252 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF490E711CDCC7FC00F10252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF490E731CDCC7FC00F10252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF490E761CDCC7FC00F10252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF490E781CDCC7FC00F10252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF490E7D1CDCC7FC00F10252 /* TwoKindsOfSingletonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoKindsOfSingletonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF490E811CDCC7FC00F10252 /* TwoKindsOfSingletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoKindsOfSingletonTests.m; sourceTree = "<group>"; };
+		CF490E831CDCC7FC00F10252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF490E881CDCC7FC00F10252 /* TwoKindsOfSingletonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoKindsOfSingletonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF490E8C1CDCC7FC00F10252 /* TwoKindsOfSingletonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoKindsOfSingletonUITests.m; sourceTree = "<group>"; };
+		CF490E8E1CDCC7FC00F10252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF490E9A1CDCC81200F10252 /* JSPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPerson.h; sourceTree = "<group>"; };
+		CF490E9B1CDCC81200F10252 /* JSPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPerson.m; sourceTree = "<group>"; };
+		CF490E9D1CDCCA5B00F10252 /* JSDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDog.h; sourceTree = "<group>"; };
+		CF490E9E1CDCCA5B00F10252 /* JSDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF490E611CDCC7FB00F10252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF490E7A1CDCC7FC00F10252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF490E851CDCC7FC00F10252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF490E5B1CDCC7FB00F10252 = {
+			isa = PBXGroup;
+			children = (
+				CF490E661CDCC7FC00F10252 /* TwoKindsOfSingleton */,
+				CF490E801CDCC7FC00F10252 /* TwoKindsOfSingletonTests */,
+				CF490E8B1CDCC7FC00F10252 /* TwoKindsOfSingletonUITests */,
+				CF490E651CDCC7FB00F10252 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF490E651CDCC7FB00F10252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF490E641CDCC7FB00F10252 /* TwoKindsOfSingleton.app */,
+				CF490E7D1CDCC7FC00F10252 /* TwoKindsOfSingletonTests.xctest */,
+				CF490E881CDCC7FC00F10252 /* TwoKindsOfSingletonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF490E661CDCC7FC00F10252 /* TwoKindsOfSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				CF490E6A1CDCC7FC00F10252 /* AppDelegate.h */,
+				CF490E6B1CDCC7FC00F10252 /* AppDelegate.m */,
+				CF490E6D1CDCC7FC00F10252 /* ViewController.h */,
+				CF490E6E1CDCC7FC00F10252 /* ViewController.m */,
+				CF490E9D1CDCCA5B00F10252 /* JSDog.h */,
+				CF490E9E1CDCCA5B00F10252 /* JSDog.m */,
+				CF490E9A1CDCC81200F10252 /* JSPerson.h */,
+				CF490E9B1CDCC81200F10252 /* JSPerson.m */,
+				CF490E701CDCC7FC00F10252 /* Main.storyboard */,
+				CF490E731CDCC7FC00F10252 /* Assets.xcassets */,
+				CF490E751CDCC7FC00F10252 /* LaunchScreen.storyboard */,
+				CF490E781CDCC7FC00F10252 /* Info.plist */,
+				CF490E671CDCC7FC00F10252 /* Supporting Files */,
+			);
+			path = TwoKindsOfSingleton;
+			sourceTree = "<group>";
+		};
+		CF490E671CDCC7FC00F10252 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF490E681CDCC7FC00F10252 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF490E801CDCC7FC00F10252 /* TwoKindsOfSingletonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF490E811CDCC7FC00F10252 /* TwoKindsOfSingletonTests.m */,
+				CF490E831CDCC7FC00F10252 /* Info.plist */,
+			);
+			path = TwoKindsOfSingletonTests;
+			sourceTree = "<group>";
+		};
+		CF490E8B1CDCC7FC00F10252 /* TwoKindsOfSingletonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF490E8C1CDCC7FC00F10252 /* TwoKindsOfSingletonUITests.m */,
+				CF490E8E1CDCC7FC00F10252 /* Info.plist */,
+			);
+			path = TwoKindsOfSingletonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF490E631CDCC7FB00F10252 /* TwoKindsOfSingleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF490E911CDCC7FC00F10252 /* Build configuration list for PBXNativeTarget "TwoKindsOfSingleton" */;
+			buildPhases = (
+				CF490E601CDCC7FB00F10252 /* Sources */,
+				CF490E611CDCC7FB00F10252 /* Frameworks */,
+				CF490E621CDCC7FB00F10252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoKindsOfSingleton;
+			productName = TwoKindsOfSingleton;
+			productReference = CF490E641CDCC7FB00F10252 /* TwoKindsOfSingleton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF490E7C1CDCC7FC00F10252 /* TwoKindsOfSingletonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF490E941CDCC7FC00F10252 /* Build configuration list for PBXNativeTarget "TwoKindsOfSingletonTests" */;
+			buildPhases = (
+				CF490E791CDCC7FC00F10252 /* Sources */,
+				CF490E7A1CDCC7FC00F10252 /* Frameworks */,
+				CF490E7B1CDCC7FC00F10252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF490E7F1CDCC7FC00F10252 /* PBXTargetDependency */,
+			);
+			name = TwoKindsOfSingletonTests;
+			productName = TwoKindsOfSingletonTests;
+			productReference = CF490E7D1CDCC7FC00F10252 /* TwoKindsOfSingletonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF490E871CDCC7FC00F10252 /* TwoKindsOfSingletonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF490E971CDCC7FC00F10252 /* Build configuration list for PBXNativeTarget "TwoKindsOfSingletonUITests" */;
+			buildPhases = (
+				CF490E841CDCC7FC00F10252 /* Sources */,
+				CF490E851CDCC7FC00F10252 /* Frameworks */,
+				CF490E861CDCC7FC00F10252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF490E8A1CDCC7FC00F10252 /* PBXTargetDependency */,
+			);
+			name = TwoKindsOfSingletonUITests;
+			productName = TwoKindsOfSingletonUITests;
+			productReference = CF490E881CDCC7FC00F10252 /* TwoKindsOfSingletonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF490E5C1CDCC7FB00F10252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF490E631CDCC7FB00F10252 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF490E7C1CDCC7FC00F10252 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF490E631CDCC7FB00F10252;
+					};
+					CF490E871CDCC7FC00F10252 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF490E631CDCC7FB00F10252;
+					};
+				};
+			};
+			buildConfigurationList = CF490E5F1CDCC7FB00F10252 /* Build configuration list for PBXProject "TwoKindsOfSingleton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF490E5B1CDCC7FB00F10252;
+			productRefGroup = CF490E651CDCC7FB00F10252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF490E631CDCC7FB00F10252 /* TwoKindsOfSingleton */,
+				CF490E7C1CDCC7FC00F10252 /* TwoKindsOfSingletonTests */,
+				CF490E871CDCC7FC00F10252 /* TwoKindsOfSingletonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF490E621CDCC7FB00F10252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF490E771CDCC7FC00F10252 /* LaunchScreen.storyboard in Resources */,
+				CF490E741CDCC7FC00F10252 /* Assets.xcassets in Resources */,
+				CF490E721CDCC7FC00F10252 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF490E7B1CDCC7FC00F10252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF490E861CDCC7FC00F10252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF490E601CDCC7FB00F10252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF490E6F1CDCC7FC00F10252 /* ViewController.m in Sources */,
+				CF490E9C1CDCC81200F10252 /* JSPerson.m in Sources */,
+				CF490E6C1CDCC7FC00F10252 /* AppDelegate.m in Sources */,
+				CF490E691CDCC7FC00F10252 /* main.m in Sources */,
+				CF490E9F1CDCCA5B00F10252 /* JSDog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF490E791CDCC7FC00F10252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF490E821CDCC7FC00F10252 /* TwoKindsOfSingletonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF490E841CDCC7FC00F10252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF490E8D1CDCC7FC00F10252 /* TwoKindsOfSingletonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF490E7F1CDCC7FC00F10252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF490E631CDCC7FB00F10252 /* TwoKindsOfSingleton */;
+			targetProxy = CF490E7E1CDCC7FC00F10252 /* PBXContainerItemProxy */;
+		};
+		CF490E8A1CDCC7FC00F10252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF490E631CDCC7FB00F10252 /* TwoKindsOfSingleton */;
+			targetProxy = CF490E891CDCC7FC00F10252 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF490E701CDCC7FC00F10252 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF490E711CDCC7FC00F10252 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF490E751CDCC7FC00F10252 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF490E761CDCC7FC00F10252 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF490E8F1CDCC7FC00F10252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF490E901CDCC7FC00F10252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF490E921CDCC7FC00F10252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwoKindsOfSingleton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.TwoKindsOfSingleton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF490E931CDCC7FC00F10252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwoKindsOfSingleton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.TwoKindsOfSingleton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF490E951CDCC7FC00F10252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwoKindsOfSingletonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.TwoKindsOfSingletonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoKindsOfSingleton.app/TwoKindsOfSingleton";
+			};
+			name = Debug;
+		};
+		CF490E961CDCC7FC00F10252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwoKindsOfSingletonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.TwoKindsOfSingletonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoKindsOfSingleton.app/TwoKindsOfSingleton";
+			};
+			name = Release;
+		};
+		CF490E981CDCC7FC00F10252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwoKindsOfSingletonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.TwoKindsOfSingletonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TwoKindsOfSingleton;
+			};
+			name = Debug;
+		};
+		CF490E991CDCC7FC00F10252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwoKindsOfSingletonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.TwoKindsOfSingletonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TwoKindsOfSingleton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF490E5F1CDCC7FB00F10252 /* Build configuration list for PBXProject "TwoKindsOfSingleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF490E8F1CDCC7FC00F10252 /* Debug */,
+				CF490E901CDCC7FC00F10252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF490E911CDCC7FC00F10252 /* Build configuration list for PBXNativeTarget "TwoKindsOfSingleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF490E921CDCC7FC00F10252 /* Debug */,
+				CF490E931CDCC7FC00F10252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF490E941CDCC7FC00F10252 /* Build configuration list for PBXNativeTarget "TwoKindsOfSingletonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF490E951CDCC7FC00F10252 /* Debug */,
+				CF490E961CDCC7FC00F10252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF490E971CDCC7FC00F10252 /* Build configuration list for PBXNativeTarget "TwoKindsOfSingletonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF490E981CDCC7FC00F10252 /* Debug */,
+				CF490E991CDCC7FC00F10252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF490E5C1CDCC7FB00F10252 /* Project object */;
+}
